@@ -1,16 +1,21 @@
 {
-  "name": "@illumi/package",
+  "name": "aidoku-repository-engine-node",
   "version": "0.0.0",
   "private": true,
   "description": "",
   "keywords": [],
-  "homepage": "https://illumi.sh",
   "bugs": {
-    "url": "https://github.com/your/repo/issues"
+    "url": "https://github.com/lizainslie/aidoku-repository-engine-node/issues"
   },
-  "repository": "https://github.com/your/repo",
+  "repository": "https://github.com/lizainslie/aidoku-repository-engine-node",
   "license": "MIT",
-  "authors": [],
+  "authors": [
+    {
+      "name": "Liz Ainslie",
+      "email": "lizzy@lizainslie.dev",
+      "url": "https://lizainslie.dev"
+    }
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -38,6 +43,7 @@
     "update-version": "standard-version -a"
   },
   "dependencies": {
+    "@wasmer/sdk": "^0.9.0",
     "tslib": "^2.6.2"
   },
   "devDependencies": {

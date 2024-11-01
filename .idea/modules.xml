@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ts-lib-node.iml" filepath="$PROJECT_DIR$/.idea/ts-lib-node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aidoku-repository-engine-node.iml" filepath="$PROJECT_DIR$/.idea/aidoku-repository-engine-node.iml" />
     </modules>
   </component>
 </project>
